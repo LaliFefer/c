@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\יד תשפו\\פפר לאה\\פרויקט c#\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {}
+    "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {}
   },
   "projects": {
-    "Z:\\יד תשפו\\פפר לאה\\פרויקט c#\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {
+    "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפו\\פפר לאה\\פרויקט c#\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
+        "projectUniqueName": "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "Z:\\יד תשפו\\פפר לאה\\פרויקט c#\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
+        "projectPath": "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפו\\פפר לאה\\פרויקט c#\\DotNet2025_6810_6335\\DalList\\obj\\",
+        "outputPath": "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
