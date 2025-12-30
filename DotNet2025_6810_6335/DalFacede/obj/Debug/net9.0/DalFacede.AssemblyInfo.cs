@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DalFacede")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aad456de90eac10b3c66b026939723f16b13eecc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8bebc953b9c844a7bb33138cfcd90b8cf135727")]
 [assembly: System.Reflection.AssemblyProductAttribute("DalFacede")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DalFacede")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

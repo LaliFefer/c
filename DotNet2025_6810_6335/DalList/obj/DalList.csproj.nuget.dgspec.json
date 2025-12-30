@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {}
+    "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {}
   },
   "projects": {
-    "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {
+    "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
-        "projectName": "DalList",
-        "projectPath": "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפו\\סמסון אילה\\c-\\DotNet2025_6810_6335\\DalList\\obj\\",
+        "projectUniqueName": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
+        "projectName": "DalFacede",
+        "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
+        "packagesPath": "C:\\Users\\ללי\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ללי\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -66,7 +65,76 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
+        "projectName": "DalList",
+        "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\ללי\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ללי\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
+                "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

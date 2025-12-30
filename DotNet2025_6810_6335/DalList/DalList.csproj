@@ -7,4 +7,8 @@
     <RootNamespace>Dal</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DalFacede\DalFacede.csproj" />
+  </ItemGroup>
+
 </Project>
