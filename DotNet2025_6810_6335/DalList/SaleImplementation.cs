@@ -5,6 +5,7 @@ using static Dal.DataSource; // מאפשר גישה ישירה לרשימות ו
 
 internal class SaleImplementation : ISale
 {
+    // SaleImplementation: CRUD for Sale over DataSource
     // 1. יצירת מכירה חדשה
     public int Create(Sale item)
     {

@@ -1,0 +1,14 @@
+﻿namespace DalList
+{
+    // מחלקה שמממשת את הממשק IDal ומשמשת כמפעל פשוט (Simple Factory)
+    // מחלקה זו תחזיר מופעים של המחלקות שמממשות את הממשקים עבור כל ישות
+    public class DalList : DalApi.IDal
+    {
+        // כל תכונה מחזירה מופע של מימוש המתאים בתוך פרויקט DalList
+        public DalApi.IProduct Product => new Dal.ProductImplementation();
+
+        public DalApi.ICustomer Customer => new Dal.CustomerImplementation();
+
+        public DalApi.ISale Sale => new Dal.SaleImplementation();
+    }
+}

@@ -1,0 +1,9 @@
+﻿namespace DalApi;
+using DO;
+
+// ממשק לשכבת ה-DAL המייצג פעולות CRUD על ישות Product
+// הממשק יורש מה-ICrud הגנרי וכך מקבל את כל המתודות הבסיסיות
+public interface IProduct : ICrud<Product>
+{
+    // כאן ניתן להוסיף בעתיד מתודות ספציפיות למוצרים בלבד
+}

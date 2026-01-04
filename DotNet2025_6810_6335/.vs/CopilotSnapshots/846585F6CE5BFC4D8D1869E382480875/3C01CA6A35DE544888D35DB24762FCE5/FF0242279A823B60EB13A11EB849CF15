@@ -1,0 +1,15 @@
+﻿
+using System.Collections.Generic;
+
+namespace DalApi;
+
+// ממשק גנרי שמכיל את פעולות ה-CRUD לכל ישות
+public interface ICrud<T> where T : class
+{
+    int Create(T item);
+    // מחזיר ישות או null אם לא נמצא - שימוש ב-T ללא ? כדי למנוע בעיות קומפילציה בסביבת הפרויקט
+    T Read(int id);
+    List<T> ReadAll();
+    void Update(T item);
+    void Delete(int id);
+}

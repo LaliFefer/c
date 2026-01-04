@@ -2,7 +2,7 @@
 
 namespace DO;
 
-enum Categories
+public enum Categories
 {
     MEN,
     WOMEN,
@@ -10,3 +10,5 @@ enum Categories
     SPORTS,
     ELEGANT,
 }
+
+// Categories: product categories enum

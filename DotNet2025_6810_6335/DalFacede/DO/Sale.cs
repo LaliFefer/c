@@ -1,6 +1,7 @@
 ﻿namespace DO;
 
 public record Sale(
+    // Sale: data record for sales
     int IDNumber,
     int ProductIDNumber,
     int QuantityItemsRequiredtoReceivetheSale,

@@ -7,3 +7,5 @@ public record Product(
     double Price,
     int QuantityInStock 
 );
+
+// Product: data record for products

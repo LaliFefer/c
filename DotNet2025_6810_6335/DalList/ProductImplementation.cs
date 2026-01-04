@@ -8,6 +8,7 @@ namespace Dal;
 
 internal class ProductImplementation : IProduct
 {
+    // ProductImplementation: CRUD for Product over DataSource
     public int Create(Product item)
     {
         int newId = Config.NextProductId;

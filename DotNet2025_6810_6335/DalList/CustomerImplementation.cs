@@ -6,6 +6,7 @@ using static Dal.DataSource;
 
 namespace Dal;
 
+
 internal class CustomerImplementation : ICustomer
 {
     // יצירת לקוח חדש
@@ -18,6 +19,8 @@ internal class CustomerImplementation : ICustomer
         Customers.Add(item);
         return item.IDNumber;
     }
+
+    // CustomerImplementation: CRUD for Customer over DataSource
 
     public Customer? Read(int id) =>
         Customers.FirstOrDefault(c => c?.IDNumber == id);

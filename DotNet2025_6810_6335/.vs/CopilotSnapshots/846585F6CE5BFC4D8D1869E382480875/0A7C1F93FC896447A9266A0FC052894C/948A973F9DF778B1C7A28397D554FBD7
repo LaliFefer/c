@@ -1,0 +1,11 @@
+﻿using System.Collections.Generic;
+using DO;
+
+namespace DalApi;
+
+// ממשק לשכבת ה-DAL המייצג פעולות CRUD על ישות Sale (מכירה/מבצע)
+// יורש מהממשק הגנרי ICrud כדי להשתמש באותן כותרות CRUD
+public interface ISale : ICrud<Sale>
+{
+    // כאן אפשר להרחיב בעתיד עם פונקציות ספציפיות למכירות
+}

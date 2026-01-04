@@ -9,6 +9,8 @@ string TelephoneNumber)
 {
 }
 
+// Customer: data record for customers
+
 
 
 

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {}
+    "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
+    "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
+        "projectUniqueName": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
         "projectName": "DalFacede",
-        "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
-        "packagesPath": "C:\\Users\\ללי\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\obj\\",
+        "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
+        "packagesPath": "C:\\Users\\ברמן סמסון\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ללי\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ברמן סמסון\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

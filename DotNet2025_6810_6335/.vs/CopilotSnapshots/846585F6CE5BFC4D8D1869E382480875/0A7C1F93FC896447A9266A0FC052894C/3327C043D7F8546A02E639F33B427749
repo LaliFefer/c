@@ -1,0 +1,9 @@
+﻿namespace DalApi;
+using DO;
+
+// ממשק לשכבת ה-DAL המייצג פעולות CRUD על ישות Customer
+// יורש מה-ICrud כדי לאחד את פעולות ה-CRUD לכל הישויות
+public interface ICustomer : ICrud<Customer>
+{
+    // ניתן להוסיף כאן רכיבי גישה מיוחדים ללקוחות בעתיד
+}

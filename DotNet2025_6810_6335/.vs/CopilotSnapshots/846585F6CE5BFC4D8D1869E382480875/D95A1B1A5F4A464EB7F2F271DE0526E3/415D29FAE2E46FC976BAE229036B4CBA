@@ -1,0 +1,13 @@
+﻿// דוגמת תוכנית ראשית לבדיקת ה-DAL
+using DalList;
+using DalTest;
+
+var dal = new DalList.DalList();
+
+// אתחול בסיס הנתונים
+Initialization.Initialize(dal);
+
+// הדפסת סיכום פשוט
+Console.WriteLine($"Products: {dal.Product.ReadAll().Count}");
+Console.WriteLine($"Customers: {dal.Customer.ReadAll().Count}");
+Console.WriteLine($"Sales: {dal.Sale.ReadAll().Count}");

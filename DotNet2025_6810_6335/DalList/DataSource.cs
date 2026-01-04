@@ -32,4 +32,7 @@ internal static class DataSource
         internal static int NextProductId => nextProductId++;
 
     }
+
+
 }
+

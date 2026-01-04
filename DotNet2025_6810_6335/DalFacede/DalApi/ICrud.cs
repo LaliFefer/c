@@ -1,24 +1,15 @@
 ﻿
-
-using DalApi;
+using System.Collections.Generic;
 
 namespace DalApi
 {
-    internal class ICrud<T>
+    // ICrud: generic CRUD interface
+    public interface ICrud<T> where T : class
     {
         int Create(T item);
-        Read(int id);
+        T Read(int id);
         List<T> ReadAll();
         void Update(T item);
         void Delete(int id);
     }
 }
-//2.הפיכת הממשקים שהוגדרו ב DalApi ליורשים מממשק ICrud
-
-//המטרה: להפוך את כל הממשקים שהגדרנו בשלב 1 לממשקים שיורשים את הגדרת הפעולות שלהם מהממשק הגנרי.
-//בפרויקט DalFacade, עבור כל אחד מהממשקים הקיימים בשכבת ה DAL:
-//רוקנו אותו מהגדרות של 5 המתודות CRUD
-//(שימו לב - אם יש ממשק שבשלב 1 הוספתם לו מתודות מעבר ל-CRUD, אז אל תמחקו את המתודות שהוספתם והשאירו אותן בתוך הממשק)
-//הגדירו את הממשק כך שיירש את המתודות שלו מהממשק הגנרי ICrud, כאשר בתוך המשולשים <> שימו את שם הישות של אותו הממשק
-//לאחר 3 הצעדים הללו, למשל: עבור הישות Student, הממשק המעודכן IStudent  יראה בסופו של דבר כך: public interface IStudent : ICrud<Student> { }
-//נסו לבנות את כל ה Solution מחדש וודאו שאין לכם שגיאות קומפילציה. אם עדיין יש שגיאות, אז חזרו ובדקו שדייקתם בהוראות עד כה. אל תמשיכו הלאה אם לא הגעתם למצב של בניה/קומפילציה ללא שגיאות.
