@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj": {}
+    "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
+    "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
+        "projectUniqueName": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
         "projectName": "DalFacede",
-        "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
-        "packagesPath": "C:\\Users\\ברמן סמסון\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\obj\\",
+        "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
+        "packagesPath": "C:\\Users\\ללי\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ברמן סמסון\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ללי\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {
+    "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\ברמן סמסון\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalList\\obj\\",
+        "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\ללי\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ברמן סמסון\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ללי\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +97,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
-                "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj"
+              "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
+                "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj"
               }
             }
           }
@@ -134,24 +134,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj": {
+    "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj",
-        "packagesPath": "C:\\Users\\ברמן סמסון\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\obj\\",
+        "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj",
+        "packagesPath": "C:\\Users\\ללי\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ברמן סמסון\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ללי\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -166,11 +166,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
-                "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj"
+              "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj": {
+                "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj"
               },
-              "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {
-                "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj"
+              "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\ללי\\Documents\\GitHub\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj"
               }
             }
           }
@@ -206,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
