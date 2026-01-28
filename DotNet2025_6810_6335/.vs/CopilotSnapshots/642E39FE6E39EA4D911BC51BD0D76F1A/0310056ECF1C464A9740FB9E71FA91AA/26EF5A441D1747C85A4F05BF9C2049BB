@@ -1,0 +1,62 @@
+﻿namespace Dal;
+using DalApi;
+using DO;
+using static Dal.DataSource; // מאפשר גישה ישירה לרשימות ול-Config
+
+internal class SaleImplementation : ISale
+{
+    // SaleImplementation: CRUD for Sale over DataSource
+    // 1. יצירת מכירה חדשה
+    public int Create(Sale item)
+    {
+        // קבלת מזהה רץ חדש מהקונפיגורציה
+        int newId = Config.NextSaleId;
+
+        // יצירת עותק חדש של הישות עם המזהה שנוצר (במידה והוא לא נקבע מראש)
+        Sale newItem = item with { IDNumber = newId };
+
+        // הוספה לרשימה ב-DataSource
+        Sales.Add(newItem);
+
+        return newId;
+    }
+
+    // 2. קריאת מכירה לפי מזהה
+    public Sale? Read(int id)
+    {
+        // חיפוש המכירה הראשונה שמתאימה למזהה, או החזרת null אם לא נמצאה
+        return Sales.FirstOrDefault(s => s?.IDNumber == id);
+    }
+
+    // 3. קריאת כל המכירות
+    public List<Sale> ReadAll()
+    {
+        // החזרת עותק של הרשימה (כדי למנוע שינויים לא רצויים מבחוץ)
+        return new List<Sale>(Sales!);
+    }
+
+    // 4. עדכון מכירה קיימת
+    public void Update(Sale item)
+    {
+        // בדיקה אם המכירה קיימת - הלוגיקה היחידה המותרת
+        Sale? existing = Sales.FirstOrDefault(s => s?.IDNumber == item.IDNumber);
+
+        if (existing == null)
+            throw new DalEntityNotFoundException($"Sale with ID {item.IDNumber} does not exist.");
+
+        // הסרת הישן והוספת המעודכן
+        Sales.Remove(existing);
+        Sales.Add(item);
+    }
+
+    // 5. מחיקת מכירה
+    public void Delete(int id)
+    {
+        Sale? existing = Sales.FirstOrDefault(s => s?.IDNumber == id);
+
+        if (existing == null)
+            throw new DalEntityNotFoundException($"Sale with ID {id} does not exist.");
+
+        Sales.Remove(existing);
+    }
+}
