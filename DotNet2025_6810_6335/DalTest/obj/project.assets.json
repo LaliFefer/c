@@ -2,21 +2,21 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "DalFacede/1.0.0": {
+      "DalFacade/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/DalFacede.dll": {}
+          "bin/placeholder/DalFacade.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DalFacede.dll": {}
+          "bin/placeholder/DalFacade.dll": {}
         }
       },
       "DalList/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "DalFacede": "1.0.0"
+          "DalFacade": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DalList.dll": {}
@@ -28,7 +28,7 @@
     }
   },
   "libraries": {
-    "DalFacede/1.0.0": {
+    "DalFacade/1.0.0": {
       "type": "project",
       "path": "../DalFacede/DalFacede.csproj",
       "msbuildProject": "../DalFacede/DalFacede.csproj"
@@ -41,7 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "DalFacede >= 1.0.0",
+      "DalFacade >= 1.0.0",
       "DalList >= 1.0.0"
     ]
   },

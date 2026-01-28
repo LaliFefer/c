@@ -24,9 +24,7 @@ C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalTest.runtimeconfig.json
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalTest.dll
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalTest.pdb
-C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacede.dll
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalList.dll
-C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacede.pdb
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalList.pdb
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.0\DalTest.csproj.AssemblyReference.cache
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.0\DalTest.GeneratedMSBuildEditorConfig.editorconfig
@@ -40,3 +38,5 @@ C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.0\DalTest.pdb
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.0\DalTest.genruntimeconfig.cache
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.0\ref\DalTest.dll
+C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacade.dll
+C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacade.pdb

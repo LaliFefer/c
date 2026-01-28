@@ -26,7 +26,7 @@ C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\obj\Debug\net9.
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\bin\Debug\net9.0\DalList.deps.json
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\bin\Debug\net9.0\DalList.dll
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\bin\Debug\net9.0\DalList.pdb
-C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\bin\Debug\net9.0\DalFacede.dll
-C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\bin\Debug\net9.0\DalFacede.pdb
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\obj\Debug\net9.0\DalList.csproj.Up2Date
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\obj\Debug\net9.0\ref\DalList.dll
+C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\bin\Debug\net9.0\DalFacade.dll
+C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalList\bin\Debug\net9.0\DalFacade.pdb

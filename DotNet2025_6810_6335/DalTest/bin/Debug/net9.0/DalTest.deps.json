@@ -8,27 +8,35 @@
     ".NETCoreApp,Version=v9.0": {
       "DalTest/1.0.0": {
         "dependencies": {
-          "DalFacede": "1.0.0",
-          "DalList": "1.0.0"
+          "DalFacade": "1.0.0",
+          "DalList": "1.0.0",
+          "DalFacade.Reference": "1.0.0.0"
         },
         "runtime": {
           "DalTest.dll": {}
         }
       },
-      "DalFacede/1.0.0": {
+      "DalFacade/1.0.0": {
         "runtime": {
-          "DalFacede.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "DalFacade.dll": {
+            "fileVersion": "0.0.0.0"
           }
         }
       },
       "DalList/1.0.0": {
         "dependencies": {
-          "DalFacede": "1.0.0"
+          "DalFacade": "1.0.0"
         },
         "runtime": {
           "DalList.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DalFacade.Reference/1.0.0.0": {
+        "runtime": {
+          "DalFacade.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -42,13 +50,18 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DalFacede/1.0.0": {
+    "DalFacade/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "DalList/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalFacade.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
