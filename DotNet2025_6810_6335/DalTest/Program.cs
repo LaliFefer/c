@@ -4,6 +4,8 @@ using DalTest;
 using DalApi;
 using DO;
 using System;
+using System.Reflection;
+using Tools;
 using DalFacade.DalExceptions;
 
 namespace DalTest
@@ -26,15 +28,21 @@ namespace DalTest
             catch (DalEntityAlreadyExistsException ex)
             {
                 Console.WriteLine("DAL error - already exists: " + ex.Message);
+                var mb = MethodBase.GetCurrentMethod();
+                LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
             }
             catch (DalEntityNotFoundException ex)
             {
                 Console.WriteLine("DAL error - not found: " + ex.Message);
+                var mb = MethodBase.GetCurrentMethod();
+                LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
             }
             catch (Exception ex)
             {
                 // הדפסת החריגה שנתפסה (לפי הוראות שלב 3)
                 Console.WriteLine("Unhandled exception: " + ex);
+                var mb = MethodBase.GetCurrentMethod();
+                LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
             }
         }
 
@@ -165,19 +173,27 @@ namespace DalTest
                 catch (DalEntityAlreadyExistsException ex)
                 {
                     Console.WriteLine("DAL Error (already exists): " + ex.Message);
+                    var mb = MethodBase.GetCurrentMethod();
+                    LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
                 }
                 catch (DalEntityNotFoundException ex)
                 {
                     Console.WriteLine("DAL Error (not found): " + ex.Message);
+                    var mb = MethodBase.GetCurrentMethod();
+                    LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
                 }
                 catch (ArgumentNullException ex)
                 {
                     Console.WriteLine("Argument error: " + ex.Message);
+                    var mb = MethodBase.GetCurrentMethod();
+                    LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
                 }
                 catch (Exception ex)
                 {
                     // הדפסת החריגה שנתפסה (לפי הוראות)
                     Console.WriteLine("Exception: " + ex.Message);
+                    var mb = MethodBase.GetCurrentMethod();
+                    LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
                 }
             }
         }

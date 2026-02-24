@@ -13,3 +13,4 @@ namespace DalApi
         void Delete(int id);
     }
 }
+

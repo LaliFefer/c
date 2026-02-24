@@ -43,5 +43,38 @@ namespace Tools
                 File.AppendAllText(filePath, line);
             }
         }
+
+        // delete log folders older than two months
+        public static void CleanOldLogs()
+        {
+            try
+            {
+                string root = Path.Combine(AppContext.BaseDirectory ?? Directory.GetCurrentDirectory(), s_logRoot);
+                if (!Directory.Exists(root)) return;
+
+                var dirs = Directory.GetDirectories(root);
+                var threshold = DateTime.Now.AddMonths(-2);
+                foreach (var dir in dirs)
+                {
+                    try
+                    {
+                        // use last write time as indicator
+                        var dt = Directory.GetLastWriteTime(dir);
+                        if (dt < threshold)
+                        {
+                            Directory.Delete(dir, true);
+                        }
+                    }
+                    catch
+                    {
+                        // ignore individual deletion errors
+                    }
+                }
+            }
+            catch
+            {
+                // ignore
+            }
+        }
     }
 }

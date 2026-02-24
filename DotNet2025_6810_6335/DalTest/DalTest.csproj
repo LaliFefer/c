@@ -11,6 +11,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\DalFacede\DalFacede.csproj" />
 		<ProjectReference Include="..\DalList\DalList.csproj" />
+		<ProjectReference Include="..\Tools\Tools.csproj" />
 	</ItemGroup>
 
 </Project>

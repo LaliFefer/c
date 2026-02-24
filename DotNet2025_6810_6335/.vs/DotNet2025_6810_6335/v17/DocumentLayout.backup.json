@@ -93,6 +93,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\CODE_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CODE_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14016670-1DFA-4DFC-83C3-1DC7D6DF3EDC}|Tools\\Tools.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\tools\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14016670-1DFA-4DFC-83C3-1DC7D6DF3EDC}|Tools\\Tools.csproj|solutionrelative:tools\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -151,7 +155,7 @@
               "RelativeDocumentMoniker": "DalFacede\\DalApi\\ICrud.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalApi\\ICrud.cs",
               "RelativeToolTip": "DalFacede\\DalApi\\ICrud.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T12:34:35.002Z",
               "IsPinned": true,
@@ -178,10 +182,11 @@
               "RelativeDocumentMoniker": "DalList\\ProductImplementation.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\ProductImplementation.cs",
               "RelativeToolTip": "DalList\\ProductImplementation.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAABRwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T11:33:04.393Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -191,10 +196,11 @@
               "RelativeDocumentMoniker": "DalList\\CustomerImplementation.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\CustomerImplementation.cs",
               "RelativeToolTip": "DalList\\CustomerImplementation.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwAwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAIBJwA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T11:32:10.714Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -204,10 +210,11 @@
               "RelativeDocumentMoniker": "DalTest\\DalTest.csproj",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj",
               "RelativeToolTip": "DalTest\\DalTest.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-07T14:51:07.607Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -256,10 +263,11 @@
               "RelativeDocumentMoniker": "DalList\\SaleImplementation.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\SaleImplementation.cs",
               "RelativeToolTip": "DalList\\SaleImplementation.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAArwDYAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAIBJwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T11:28:15.339Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -308,10 +316,11 @@
               "RelativeDocumentMoniker": "DalTest\\Program.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\Program.cs",
               "RelativeToolTip": "DalTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALAAAAAAAAAAAABBwKoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T14:41:32.452Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -347,14 +356,24 @@
               "RelativeDocumentMoniker": "DalList\\DalList.csproj",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
               "RelativeToolTip": "DalList\\DalList.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAABBwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-07T14:50:06.59Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LogManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\Tools\\LogManager.cs",
+              "RelativeDocumentMoniker": "Tools\\LogManager.cs",
+              "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\Tools\\LogManager.cs",
+              "RelativeToolTip": "Tools\\LogManager.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:08:05.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

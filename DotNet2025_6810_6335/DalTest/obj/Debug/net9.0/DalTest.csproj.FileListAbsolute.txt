@@ -8,9 +8,7 @@ C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet20
 C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalTest.runtimeconfig.json
 C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalTest.dll
 C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalTest.pdb
-C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacede.dll
 C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalList.dll
-C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacede.pdb
 C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalList.pdb
 C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.0\DalTest.csproj.AssemblyReference.cache
 C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.0\DalTest.csproj.Up2Date
@@ -40,3 +38,7 @@ C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\obj\Debug\net9.0\ref\DalTest.dll
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacade.dll
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacade.pdb
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacade.dll
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\Tools.dll
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\DalFacade.pdb
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\DalTest\bin\Debug\net9.0\Tools.pdb

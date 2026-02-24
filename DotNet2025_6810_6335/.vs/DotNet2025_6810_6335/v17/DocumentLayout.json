@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1A77F35F-CA1C-4494-B03A-E740D0F82CF8}|DalTest\\DalTest.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A77F35F-CA1C-4494-B03A-E740D0F82CF8}|DalTest\\DalTest.csproj|solutionrelative:daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dallist\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|solutionrelative:dallist\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dallist\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|solutionrelative:dallist\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dallist\\dallist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|solutionrelative:dallist\\dallist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14016670-1DFA-4DFC-83C3-1DC7D6DF3EDC}|Tools\\Tools.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\tools\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14016670-1DFA-4DFC-83C3-1DC7D6DF3EDC}|Tools\\Tools.csproj|solutionrelative:tools\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47E7289B-0495-48AC-81D7-E0E7E21656C0}|DalFacede\\DalFacede.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dalfacede\\dalapi\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47E7289B-0495-48AC-81D7-E0E7E21656C0}|DalFacede\\DalFacede.csproj|solutionrelative:dalfacede\\dalapi\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47E7289B-0495-48AC-81D7-E0E7E21656C0}|DalFacede\\DalFacede.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dalfacede\\dalapi\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47E7289B-0495-48AC-81D7-E0E7E21656C0}|DalFacede\\DalFacede.csproj|solutionrelative:dalfacede\\dalapi\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dallist\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|solutionrelative:dallist\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dallist\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{1A77F35F-CA1C-4494-B03A-E740D0F82CF8}|DalTest\\DalTest.csproj|solutionrelative:daltest\\daltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dallist\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|solutionrelative:dallist\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47E7289B-0495-48AC-81D7-E0E7E21656C0}|DalFacede\\DalFacede.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dalfacede\\do\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47E7289B-0495-48AC-81D7-E0E7E21656C0}|DalFacede\\DalFacede.csproj|solutionrelative:dalfacede\\do\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,16 +67,8 @@
       "RelativeMoniker": "D:0:0:{47E7289B-0495-48AC-81D7-E0E7E21656C0}|DalFacede\\DalFacede.csproj|solutionrelative:dalfacede\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A77F35F-CA1C-4494-B03A-E740D0F82CF8}|DalTest\\DalTest.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A77F35F-CA1C-4494-B03A-E740D0F82CF8}|DalTest\\DalTest.csproj|solutionrelative:daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dallist\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|solutionrelative:dallist\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\dallist\\dallist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9982F8E5-636F-4CD6-94E6-A617A0BBA329}|DalList\\DalList.csproj|solutionrelative:dallist\\dallist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A77F35F-CA1C-4494-B03A-E740D0F82CF8}|DalTest\\DalTest.csproj|c:\\users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\dotnet2025_6810_6335\\daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,11 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ICustomer.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalApi\\ICustomer.cs",
               "RelativeDocumentMoniker": "DalFacede\\DalApi\\ICustomer.cs",
@@ -119,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ISale.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalApi\\ISale.cs",
               "RelativeDocumentMoniker": "DalFacede\\DalApi\\ISale.cs",
@@ -132,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IProduct.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalApi\\IProduct.cs",
               "RelativeDocumentMoniker": "DalFacede\\DalApi\\IProduct.cs",
@@ -145,13 +149,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ICrud.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalApi\\ICrud.cs",
               "RelativeDocumentMoniker": "DalFacede\\DalApi\\ICrud.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalApi\\ICrud.cs",
               "RelativeToolTip": "DalFacede\\DalApi\\ICrud.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T12:34:35.002Z",
               "IsPinned": true,
@@ -159,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "IDal.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalApi\\IDal.cs",
               "RelativeDocumentMoniker": "DalFacede\\DalApi\\IDal.cs",
@@ -178,40 +182,43 @@
               "RelativeDocumentMoniker": "DalList\\ProductImplementation.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\ProductImplementation.cs",
               "RelativeToolTip": "DalList\\ProductImplementation.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T11:33:04.393Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\CustomerImplementation.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\CustomerImplementation.cs",
               "RelativeToolTip": "DalList\\CustomerImplementation.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwAwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAApwA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T11:32:10.714Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "DalTest.csproj",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj",
               "RelativeDocumentMoniker": "DalTest\\DalTest.csproj",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\DalTest.csproj",
               "RelativeToolTip": "DalTest\\DalTest.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-07T14:51:07.607Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DO\\Sale.cs",
               "RelativeDocumentMoniker": "DalFacede\\DO\\Sale.cs",
@@ -224,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DO\\Product.cs",
               "RelativeDocumentMoniker": "DalFacede\\DO\\Product.cs",
@@ -237,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "DalFacede.csproj",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
               "RelativeDocumentMoniker": "DalFacede\\DalFacede.csproj",
@@ -246,24 +253,26 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-07T14:45:15.088Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\SaleImplementation.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\SaleImplementation.cs",
               "RelativeToolTip": "DalList\\SaleImplementation.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAArwDYAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAIBJwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T11:28:15.339Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "DataSource.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DataSource.cs",
               "RelativeDocumentMoniker": "DalList\\DataSource.cs",
@@ -276,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DO\\Enums.cs",
               "RelativeDocumentMoniker": "DalFacede\\DO\\Enums.cs",
@@ -289,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DO\\Customer.cs",
               "RelativeDocumentMoniker": "DalFacede\\DO\\Customer.cs",
@@ -302,20 +311,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\Program.cs",
               "RelativeDocumentMoniker": "DalTest\\Program.cs",
               "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\Program.cs",
               "RelativeToolTip": "DalTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T14:41:32.452Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\Class1.cs",
               "RelativeDocumentMoniker": "DalFacede\\Class1.cs",
@@ -328,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\Class1.cs",
               "RelativeDocumentMoniker": "DalList\\Class1.cs",
@@ -341,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "DalList.csproj",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj",
               "RelativeDocumentMoniker": "DalList\\DalList.csproj",
@@ -350,15 +360,25 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-07T14:50:06.59Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 4,
+              "Title": "LogManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\Tools\\LogManager.cs",
+              "RelativeDocumentMoniker": "Tools\\LogManager.cs",
+              "ToolTip": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\Tools\\LogManager.cs",
+              "RelativeToolTip": "Tools\\LogManager.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwC8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T20:08:05.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "IEnums.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalApi\\IEnums.cs",
               "RelativeDocumentMoniker": "DalFacede\\DalApi\\IEnums.cs",
@@ -370,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CODE_SUMMARY.md",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\CODE_SUMMARY.md",
               "RelativeDocumentMoniker": "CODE_SUMMARY.md",
@@ -382,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "README_STAGES_3_4.md",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\README_STAGES_3_4.md",
               "RelativeDocumentMoniker": "README_STAGES_3_4.md",
@@ -394,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Initialization.cs",
               "DocumentMoniker": "C:\\Users\\\u05D1\u05E8\u05DE\u05DF \u05E1\u05DE\u05E1\u05D5\u05DF\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D0\u05D9\u05DC\u05D4 \u05D9\u05D3\\payton\\c-\\DotNet2025_6810_6335\\DalTest\\Initialization.cs",
               "RelativeDocumentMoniker": "DalTest\\Initialization.cs",

@@ -4,5 +4,15 @@
   "success": true,
   "projectFilePath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalFacede\\DalFacede.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

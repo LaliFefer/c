@@ -10,3 +10,15 @@ C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\refint\Tools.dll
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\Tools.pdb
 C:\Users\ללי\Documents\GitHub\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\ref\Tools.dll
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\Tools.AssemblyInfoInputs.cache
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\Tools.AssemblyInfo.cs
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\Tools.csproj.CoreCompileInputs.cache
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\Tools.sourcelink.json
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\Tools.dll
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\refint\Tools.dll
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\Tools.pdb
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\bin\Debug\net8.0\Tools.deps.json
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\bin\Debug\net8.0\Tools.dll
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\bin\Debug\net8.0\Tools.pdb
+C:\Users\ברמן סמסון\Desktop\תכנות אילה יד\payton\c-\DotNet2025_6810_6335\Tools\obj\Debug\net8.0\ref\Tools.dll

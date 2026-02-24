@@ -16,13 +16,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "DalFacade": "1.0.0"
+          "DalFacade": "1.0.0",
+          "Tools": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DalList.dll": {}
         },
         "runtime": {
           "bin/placeholder/DalList.dll": {}
+        }
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
         }
       }
     }
@@ -37,12 +48,18 @@
       "type": "project",
       "path": "../DalList/DalList.csproj",
       "msbuildProject": "../DalList/DalList.csproj"
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../Tools/Tools.csproj",
+      "msbuildProject": "../Tools/Tools.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "DalFacade >= 1.0.0",
-      "DalList >= 1.0.0"
+      "DalList >= 1.0.0",
+      "Tools >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -82,6 +99,9 @@
             },
             "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj": {
               "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\DalList\\DalList.csproj"
+            },
+            "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\Tools\\Tools.csproj": {
+              "projectPath": "C:\\Users\\ברמן סמסון\\Desktop\\תכנות אילה יד\\payton\\c-\\DotNet2025_6810_6335\\Tools\\Tools.csproj"
             }
           }
         }
