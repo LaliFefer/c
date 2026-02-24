@@ -8,4 +8,10 @@
     <RootNamespace>DalFacade</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\xml\dal-config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
