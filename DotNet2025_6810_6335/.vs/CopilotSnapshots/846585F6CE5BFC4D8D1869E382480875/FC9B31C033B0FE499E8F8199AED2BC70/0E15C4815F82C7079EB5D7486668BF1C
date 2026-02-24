@@ -1,7 +1,0 @@
-﻿namespace DalApi;
-using DO;
-
-// IProduct יורש מהממשק הגנרי ICrud עם טייפ Product
-public interface IProduct : ICrud<Product>
-{
-}
