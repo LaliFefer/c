@@ -10,12 +10,10 @@ namespace DalTest
         // שדה אחסון של ה-DAL המאוחד
         private static IDal s_dal;
 
-        // מתודה ציבורית שמקבלת IDal ומאתחלת את הנתונים
-        // לפי הוראות שלב 4 - המתודה מקבלת מופע אחד מסוג IDal
-        // ולא כמה מופעים נפרדים לכל תת-ממשק.
-        public static void Initialize(IDal dal)
+        // מתודה ציבורית לאתחול הנתונים - עתה ללא פרמטר, לקראת שימוש ב-Factory
+        public static void Initialize()
         {
-            s_dal = dal;
+            s_dal = DalApi.Factory.Get;
 
             createProducts();
             createCustomers();

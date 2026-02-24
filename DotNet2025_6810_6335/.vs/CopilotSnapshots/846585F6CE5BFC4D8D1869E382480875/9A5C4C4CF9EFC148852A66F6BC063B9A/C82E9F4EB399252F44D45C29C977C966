@@ -1,7 +1,0 @@
-﻿namespace DalApi;
-using DO;
-
-// ICustomer יורש מהממשק הגנרי ICrud עם טייפ Customer
-public interface ICustomer : ICrud<Customer>
-{
-}

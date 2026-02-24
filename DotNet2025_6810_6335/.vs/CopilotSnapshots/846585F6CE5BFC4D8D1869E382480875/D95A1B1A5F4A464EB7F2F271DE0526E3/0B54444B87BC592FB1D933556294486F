@@ -1,9 +1,0 @@
-﻿using System.Collections.Generic;
-using DO;
-
-namespace DalApi;
-
-// ISale יורש מהממשק הגנרי ICrud עם טייפ Sale
-public interface ISale : ICrud<Sale>
-{
-}

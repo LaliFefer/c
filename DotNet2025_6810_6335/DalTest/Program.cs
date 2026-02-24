@@ -13,14 +13,15 @@ namespace DalTest
     public class Program
     {
         // שדה סטטי לקריאה בלבד שמכיל את ה-DAL המאוחד (מבוקש בשלב 4)
-        private static readonly IDal s_dal = new DalList.DalList();
+        private static readonly IDal s_dal = DalApi.Factory.Get;
         public static void Main()
         {
-            // עטיפה חיצונית לתפיסת חריגות מה-DAL
+        // עטיפה חיצונית לתפיסת חריגות מה-DAL
             try
             {
                 // אתחול בסיס הנתונים בעזרת ה-IDal המאוחד
-                Initialization.Initialize(s_dal);
+            // Initialization.Initialize now uses Factory to get the IDal
+            Initialization.Initialize();
 
                 // לולאת תפריט ראשי
                 MainLoop();
