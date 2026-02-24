@@ -138,7 +138,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
-<<<<<<< Updated upstream
         }
       }
     },
@@ -204,8 +203,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
-=======
->>>>>>> Stashed changes
         }
       }
     }
