@@ -1,68 +1,111 @@
 ﻿namespace BlImplementation;
 using BlApi;
 using BO;
+using DalFacade.DalExceptions;
+using System;
+using System.Linq;
+using System.Collections.Generic;
 
 internal class CustomerImplementation : ICustomer
 {
-    private DalApi.IDal _dal = DalApi.Factory.Get();
+    private DalApi.IDal _dal = DalApi.Factory.Get;
 
-    public BO.Customer GetById(int id)
+    public IEnumerable<BO.Customer> GetList()
     {
         try
         {
-            var doCust = _dal.Customer.GetById(id);
-            return new BO.Customer
-            {
-                IDNumber = doCust.IDNumber,
-                CustomerName = doCust.CustomerName,
-                EmailAddress = doCust.EmailAddress,
-                TelephoneNumber = doCust.TelephoneNumber
-            };
+            return _dal.Customer.ReadAll()
+                .Where(c => c != null)
+                .Cast<DO.Customer>()
+                .Select(d => d.ToBO());
         }
         catch (Exception ex)
         {
-            throw new Exception($"Customer with ID {id} not found", ex);
+            throw new BO.BlInvalidInputException("Failed to retrieve customer list", ex);
+        }
+    }
+
+    public BO.Customer GetById(int id)
+    {
+        if (id <= 0)
+            throw new BO.BlInvalidInputException("Customer ID must be positive");
+
+        try
+        {
+            var doCust = _dal.Customer.Read(id) ?? throw new BO.BlNotFoundException($"Customer with ID {id} not found");
+            return doCust.ToBO()!;
+        }
+        catch (DalDoesNotExistException ex)
+        {
+            throw new BO.BlNotFoundException($"Customer with ID {id} not found", ex);
+        }
+        catch (Exception ex) when (ex is not BO.BlNotFoundException)
+        {
+            throw new BO.BlInvalidInputException($"Failed to retrieve customer ID {id}", ex);
         }
     }
 
     public void Add(BO.Customer customer)
     {
-        // כאן אפשר להוסיף לוגיקה: למשל לבדוק שה-ID חיובי
+        if (customer is null)
+            throw new BO.BlInvalidInputException("Customer cannot be null");
         if (customer.IDNumber <= 0)
-            throw new Exception("Invalid ID Number");
+            throw new BO.BlInvalidInputException("Invalid customer ID number");
 
         try
         {
-            // המרה חזרה מ-BO ל-DO כדי לשמור בדאטה בייס
-            _dal.Customer.Add(new DO.Customer
-            (
-                customer.IDNumber,
-                customer.CustomerName,
-                customer.EmailAddress,
-                customer.TelephoneNumber
-            ));
+            if (_dal.Customer.Read(customer.IDNumber) != null)
+                throw new BO.BlAlreadyExistsException($"Customer ID {customer.IDNumber} already exists");
+
+            _dal.Customer.Create(customer.ToDO());
         }
-        catch (Exception ex)
+        catch (DalAlreadyExistsException ex)
         {
-            throw new Exception("Failed to add customer", ex);
+            throw new BO.BlAlreadyExistsException($"Customer ID {customer.IDNumber} already exists", ex);
+        }
+        catch (Exception ex) when (ex is not BO.BlAlreadyExistsException)
+        {
+            throw new BO.BlInvalidInputException("Failed to add customer", ex);
         }
     }
 
     public void Update(BO.Customer customer)
     {
+        if (customer is null)
+            throw new BO.BlInvalidInputException("Customer cannot be null");
+
         try
         {
-            _dal.Customer.Update(new DO.Customer
-            (
-                customer.IDNumber,
-                customer.CustomerName,
-                customer.EmailAddress,
-                customer.TelephoneNumber
-            ));
+            if (_dal.Customer.Read(customer.IDNumber) == null)
+                throw new BO.BlNotFoundException($"Customer ID {customer.IDNumber} not found");
+
+            _dal.Customer.Update(customer.ToDO());
+        }
+        catch (DalDoesNotExistException ex)
+        {
+            throw new BO.BlNotFoundException($"Customer ID {customer.IDNumber} not found", ex);
+        }
+        catch (Exception ex) when (ex is not BO.BlNotFoundException)
+        {
+            throw new BO.BlInvalidInputException("Failed to update customer", ex);
+        }
+    }
+
+    public void Delete(int id)
+    {
+        try
+        {
+            if (_dal.Customer.Read(id) == null)
+                throw new BO.BlNotFoundException($"Customer ID {id} not found");
+            _dal.Customer.Delete(id);
+        }
+        catch (DalDoesNotExistException ex)
+        {
+            throw new BO.BlNotFoundException($"Customer ID {id} not found", ex);
         }
         catch (Exception ex)
         {
-            throw new Exception("Failed to update customer", ex);
+            throw new BO.BlInvalidInputException("Failed to delete customer", ex);
         }
     }
 }

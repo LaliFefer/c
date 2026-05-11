@@ -1,5 +1,5 @@
 ﻿// דוגמת תוכנית ראשית לבדיקת ה-DAL
-using DalList;
+using Dal;
 using DalTest;
 using DalApi;
 using DO;
@@ -12,7 +12,7 @@ namespace DalTest
 {
     public class Program
     {
-        // שדה סטטי לקריאה בלבד שמכיל את ה-DAL המאוחד (מבוקש בשלב 4)
+        // שדה סטטי לקריאה בלבד שמכיל את ה-DAL המאוחד (מבוקש בשלב4)
         private static readonly IDal s_dal = DalApi.Factory.Get;
         public static void Main()
         {
@@ -20,30 +20,41 @@ namespace DalTest
             try
             {
                 // אתחול בסיס הנתונים בעזרת ה-IDal המאוחד
-            // Initialization.Initialize now uses Factory to get the IDal
-            Initialization.Initialize();
+                // Initialization.Initialize now uses Factory to get the IDal
+
+                Console.Write("Initialize data from scratch? (y/N): ");
+                string? initChoice = Console.ReadLine();
+                if (!string.IsNullOrWhiteSpace(initChoice) && (initChoice.Equals("y", StringComparison.OrdinalIgnoreCase) || initChoice.Equals("yes", StringComparison.OrdinalIgnoreCase)))
+                {
+                    Initialization.Initialize();
+                    Console.WriteLine("Initialization completed.");
+                }
+                else
+                {
+                    Console.WriteLine("Skipping initialization. Existing XML data will be used.");
+                }
 
                 // לולאת תפריט ראשי
                 MainLoop();
             }
-            catch (DalEntityAlreadyExistsException ex)
+            catch (DalAlreadyExistsException ex)
             {
                 Console.WriteLine("DAL error - already exists: " + ex.Message);
                 var mb = MethodBase.GetCurrentMethod();
-                LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
+                LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", ex.ToString());
             }
-            catch (DalEntityNotFoundException ex)
+            catch (DalDoesNotExistException ex)
             {
                 Console.WriteLine("DAL error - not found: " + ex.Message);
                 var mb = MethodBase.GetCurrentMethod();
-                LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
+                LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", ex.ToString());
             }
             catch (Exception ex)
             {
-                // הדפסת החריגה שנתפסה (לפי הוראות שלב 3)
+                // הדפסת החריגה שנתפסה (לפי הוראות שלב3)
                 Console.WriteLine("Unhandled exception: " + ex);
                 var mb = MethodBase.GetCurrentMethod();
-                LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
+                LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", ex.ToString());
             }
         }
 
@@ -57,6 +68,7 @@ namespace DalTest
                 Console.WriteLine("1 - Products");
                 Console.WriteLine("2 - Customers");
                 Console.WriteLine("3 - Sales");
+                Console.WriteLine("4 - ניקוי קבצי לוג ישנים");
                 Console.WriteLine("0 - Exit");
                 Console.Write("Choose entity: ");
 
@@ -72,8 +84,24 @@ namespace DalTest
                     case "1": EntityMenu(s_dal.Product, "Product"); break;
                     case "2": EntityMenu(s_dal.Customer, "Customer"); break;
                     case "3": EntityMenu(s_dal.Sale, "Sale"); break;
+                    case "4": CleanOldLogFiles(); break;
                     default: Console.WriteLine("Invalid choice"); break;
                 }
+            }
+        }
+
+        private static void CleanOldLogFiles()
+        {
+            try
+            {
+                LogManager.CleanOldLogs();
+                Console.WriteLine("ניקוי קבצי הלוג הישנים הושלם.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("שגיאה בניקוי לוגים: " + ex.Message);
+                var mb = MethodBase.GetCurrentMethod();
+                LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", ex.ToString());
             }
         }
 
@@ -171,30 +199,30 @@ namespace DalTest
                             break;
                     }
                 }
-                catch (DalEntityAlreadyExistsException ex)
+                catch (DalAlreadyExistsException ex)
                 {
                     Console.WriteLine("DAL Error (already exists): " + ex.Message);
                     var mb = MethodBase.GetCurrentMethod();
-                    LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
+                    LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", ex.ToString());
                 }
-                catch (DalEntityNotFoundException ex)
+                catch (DalDoesNotExistException ex)
                 {
                     Console.WriteLine("DAL Error (not found): " + ex.Message);
                     var mb = MethodBase.GetCurrentMethod();
-                    LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
+                    LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", ex.ToString());
                 }
                 catch (ArgumentNullException ex)
                 {
                     Console.WriteLine("Argument error: " + ex.Message);
                     var mb = MethodBase.GetCurrentMethod();
-                    LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
+                    LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", ex.ToString());
                 }
                 catch (Exception ex)
                 {
                     // הדפסת החריגה שנתפסה (לפי הוראות)
                     Console.WriteLine("Exception: " + ex.Message);
                     var mb = MethodBase.GetCurrentMethod();
-                    LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, ex.ToString());
+                    LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", ex.ToString());
                 }
             }
         }

@@ -2,7 +2,7 @@
 
 public class Sale
 {
-    public int IDNumber { get; set; }
+    public int IDNumber { get; init; }
     public int ProductIDNumber { get; set; }
     public int QuantityItemsRequiredtoReceivetheSale { get; set; }
     public double FullPrice { get; set; }

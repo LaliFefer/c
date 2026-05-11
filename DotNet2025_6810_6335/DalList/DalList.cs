@@ -1,7 +1,7 @@
-﻿namespace DalList
+﻿namespace Dal
 {
     // DalList: factory that returns DAL implementations
-    internal sealed class DalList : DalApi.IDal
+    public sealed class DalList : DalApi.IDal
     {
         // כל תכונה מחזירה מופע של מימוש המתאים בתוך פרויקט DalList
         public DalApi.IProduct Product => new Dal.ProductImplementation();

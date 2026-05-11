@@ -4,13 +4,12 @@ using DO;
 
 namespace DalTest
 {
-    // озмчд сиийъ маъзем ръерй д-DAL мщмб дбгйчд
     public static class Initialization
     {
-        // щгд азсеп щм д-DAL доаезг
-        private static IDal s_dal;
+        // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅ-DAL пїЅпїЅпїЅпїЅпїЅпїЅ
+        private static IDal? s_dal;
 
-        // оъегд цйбешйъ маъзем дръерйн - тъд мма фшоиш, мчшаъ щйоещ б-Factory
+        // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ-Factory
         public static void Initialize()
         {
             s_dal = DalApi.Factory.Get;
@@ -20,32 +19,70 @@ namespace DalTest
             createSales();
         }
 
-        // аъзем оецшйн мгевод
+        // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         private static void createProducts()
         {
-            s_dal.Product.Create(new Product(0, "T-Shirt", Categories.MEN, 49.9, 10));
-            s_dal.Product.Create(new Product(0, "Dress", Categories.WOMEN, 129.9, 5));
-            s_dal.Product.Create(new Product(0, "Sneakers", Categories.SPORTS, 199.0, 8));
-            s_dal.Product.Create(new Product(0, "Socks", Categories.KIDS, 9.99, 20));
-            s_dal.Product.Create(new Product(0, "Elegant Shoe", Categories.ELEGANT, 249.0, 2));
+            var products = new[]
+            {
+                new Product(0, "T-Shirt", Categories.MEN, 49.9, 10),
+                new Product(0, "Dress", Categories.WOMEN, 129.9, 5),
+                new Product(0, "Sneakers", Categories.SPORTS, 199.0, 8),
+                new Product(0, "Socks", Categories.KIDS, 9.99, 20),
+                new Product(0, "Elegant Shoe", Categories.ELEGANT, 249.0, 2)
+            };
+
+            foreach (var product in products)
+            {
+                try
+                {
+                    s_dal!.Product.Create(product);
+                }
+                catch (DalFacade.DalExceptions.DalAlreadyExistsException)
+                {
+                    // Ignore already-initialized entries.
+                }
+            }
         }
 
-        // аъзем мчезеъ мгевод
+        // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         private static void createCustomers()
         {
-            s_dal.Customer.Create(new Customer(10000001, "Alice", "alice@example.com", "050-1111111"));
-            s_dal.Customer.Create(new Customer(10000002, "Bob", "bob@example.com", "050-2222222"));
-            s_dal.Customer.Create(new Customer(10000003, "Carol", "carol@example.com", "050-3333333"));
+            var customers = new[]
+            {
+                new Customer(10000001, "Alice", "alice@example.com", "050-1111111"),
+                new Customer(10000002, "Bob", "bob@example.com", "050-2222222"),
+                new Customer(10000003, "Carol", "carol@example.com", "050-3333333")
+            };
+
+            foreach (var customer in customers)
+            {
+                try
+                {
+                    s_dal!.Customer.Create(customer);
+                }
+                catch (DalFacade.DalExceptions.DalAlreadyExistsException)
+                {
+                    // Ignore already-initialized entries.
+                }
+            }
         }
 
-        // аъзем олйшеъ мгевод
+        // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         private static void createSales()
         {
-            var products = s_dal.Product.ReadAll();
+            var products = s_dal!.Product.ReadAll();
             if (products.Count == 0) return;
 
-            int prodId = products[0].IDNumber;
-            s_dal.Sale.Create(new Sale(0, prodId, 1, products[0].Price, false, DateTime.Now.ToString("s"), DateTime.Now.AddDays(7).ToString("s")));
+            var product = products[0] ?? throw new InvalidOperationException("Product is null");
+            int prodId = product.IDNumber;
+            try
+            {
+                s_dal!.Sale.Create(new Sale(0, prodId, 1, product.Price, false, DateTime.Now.ToString("s"), DateTime.Now.AddDays(7).ToString("s")));
+            }
+            catch (DalFacade.DalExceptions.DalAlreadyExistsException)
+            {
+                // Ignore already-initialized sale entries.
+            }
         }
     }
 }

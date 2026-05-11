@@ -15,11 +15,11 @@ internal class SaleImplementation : ISale
     public int Create(Sale item)
     {
         var mb = MethodBase.GetCurrentMethod();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "Start Create");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "Start Create");
 
         if (item is null)
         {
-            LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "ArgumentNull: item is null");
+            LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "ArgumentNull: item is null");
             throw new ArgumentNullException(nameof(item));
         }
 
@@ -32,8 +32,8 @@ internal class SaleImplementation : ISale
         // הוספה לרשימה בעזרת LINQ
         Sales = Sales.Append(newItem).ToList();
 
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"Created id={newId}");
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "End Create");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"Created id={newId}");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "End Create");
         return newId;
     }
 
@@ -41,10 +41,10 @@ internal class SaleImplementation : ISale
     public Sale? Read(int id)
     {
         var mb = MethodBase.GetCurrentMethod();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"Read id={id}");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"Read id={id}");
         // חיפוש המכירה הראשונה שמתאימה למזהה, או החזרת null אם לא נמצאה
         var res = Sales.FirstOrDefault(s => s.IDNumber == id);
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"End Read found={(res!=null)}");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"End Read found={(res!=null)}");
         return res;
     }
 
@@ -56,13 +56,13 @@ internal class SaleImplementation : ISale
     public List<Sale?> ReadAll(System.Func<Sale, bool>? filter = null)
     {
         var mb = MethodBase.GetCurrentMethod();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "Start ReadAll");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "Start ReadAll");
 
         if (filter == null)
             return Sales.Select(s => (Sale?)s).ToList();
 
         var res = Sales.Where(filter).Select(s => (Sale?)s).ToList();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"End ReadAll count={res.Count}");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"End ReadAll count={res.Count}");
         return res;
     }
 
@@ -70,11 +70,11 @@ internal class SaleImplementation : ISale
     public void Update(Sale item)
     {
         var mb = MethodBase.GetCurrentMethod();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "Start Update");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "Start Update");
 
         if (item is null)
         {
-            LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "ArgumentNull: item is null");
+            LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "ArgumentNull: item is null");
             throw new ArgumentNullException(nameof(item));
         }
 
@@ -83,13 +83,13 @@ internal class SaleImplementation : ISale
 
         if (existing == null)
         {
-            LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"NotFound id={item.IDNumber}");
-            throw new DalEntityNotFoundException($"Sale with ID {item.IDNumber} does not exist.");
+            LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"NotFound id={item.IDNumber}");
+            throw new DalDoesNotExistException($"Sale with ID {item.IDNumber} does not exist.");
         }
 
         //עדכון באמצעות Select
         Sales = Sales.Select(s => s.IDNumber == item.IDNumber ? item : s).ToList();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"End Update id={item.IDNumber}");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"End Update id={item.IDNumber}");
     }
 
     // 5. מחיקת מכירה
@@ -98,7 +98,7 @@ internal class SaleImplementation : ISale
         Sale? existing = Sales.FirstOrDefault(s => s.IDNumber == id);
 
         if (existing == null)
-            throw new DalEntityNotFoundException($"Sale with ID {id} does not exist.");
+            throw new DalDoesNotExistException($"Sale with ID {id} does not exist.");
 
         // מחיקה באמצעות Where
         Sales = Sales.Where(s => s.IDNumber != id).ToList();

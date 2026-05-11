@@ -5,11 +5,11 @@ namespace Tools
 {
     public class LogManager
     {
-        // relative root folder for logs
+        // ספריית השורש שבה נשמרים קבצי הלוג
         private static readonly string s_logRoot = "Log";
         private static readonly object s_lock = new();
 
-        // returns path to current month folder (relative to app base directory)
+        // מחזיר את נתיב התקייה של החודש הנוכחי
         public static string GetCurrentFolderPath()
         {
             var now = DateTime.Now;

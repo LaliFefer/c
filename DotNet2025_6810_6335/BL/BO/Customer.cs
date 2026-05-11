@@ -2,10 +2,11 @@
 
 public class Customer
 {
-    public int IDNumber { get; set; }
-    public string CustomerName { get; set; } = string.Empty;
-    public string EmailAddress { get; set; } = string.Empty;
-    public string TelephoneNumber { get; set; } = string.Empty;
+    public int IDNumber { get; init; }
+    public string CustomerName { get; init; } = string.Empty;
+    public string EmailAddress { get; init; } = string.Empty;
+    public string TelephoneNumber { get; init; } = string.Empty;
+    public bool IsClubMember { get; init; }
 
     public override string ToString() => this.ToStringProperty();
 }

@@ -15,11 +15,11 @@ internal class ProductImplementation : IProduct
     public int Create(Product item)
     {
         var mb = MethodBase.GetCurrentMethod();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "Start Create");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "Start Create");
 
         if (item is null)
         {
-            LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "ArgumentNull: item is null");
+            LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "ArgumentNull: item is null");
             throw new ArgumentNullException(nameof(item));
         }
 
@@ -27,8 +27,8 @@ internal class ProductImplementation : IProduct
         Product newItem = item with { IDNumber = newId };
         Products = Products.Append(newItem).ToList();
 
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"Created id={newId}");
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "End Create");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"Created id={newId}");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "End Create");
         return newId;
     }
 
@@ -44,25 +44,25 @@ internal class ProductImplementation : IProduct
     {
         // אם אין פילטר, החזר את כל הרשימה כמערכת של Product? (ממפה כל פריט ל-Product?)
         var mb = MethodBase.GetCurrentMethod();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "Start ReadAll");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "Start ReadAll");
 
         if (filter == null)
             return Products.Select(p => (Product?)p).ToList();
 
         // אם יש פילטר, החזר רק את הפריטים שעבורם הפילטר מחזיר true
         var res = Products.Where(filter).Select(p => (Product?)p).ToList();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"End ReadAll count={res.Count}");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"End ReadAll count={res.Count}");
         return res;
     }
 
     public void Update(Product item)
     {
         var mb = MethodBase.GetCurrentMethod();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "Start Update");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "Start Update");
 
         if (item is null)
         {
-            LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "ArgumentNull: item is null");
+            LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "ArgumentNull: item is null");
             throw new ArgumentNullException(nameof(item));
         }
 
@@ -70,29 +70,29 @@ internal class ProductImplementation : IProduct
         Product? existing = Read(item.IDNumber);
         if (existing == null)
         {
-            LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"NotFound id={item.IDNumber}");
-            throw new DalEntityNotFoundException($"Product with ID {item.IDNumber} does not exist.");
+            LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"NotFound id={item.IDNumber}");
+            throw new DalDoesNotExistException($"Product with ID {item.IDNumber} does not exist.");
         }
 
         // replace the matching item using LINQ Select and reassign the backing list
         Products = Products.Select(p => p.IDNumber == item.IDNumber ? item : p).ToList();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"End Update id={item.IDNumber}");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"End Update id={item.IDNumber}");
     }
 
     public void Delete(int id)
     {
         var mb = MethodBase.GetCurrentMethod();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, "Start Delete");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", "Start Delete");
 
         Product? existing = Read(id);
         if (existing == null)
         {
-            LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"NotFound id={id}");
-            throw new DalEntityNotFoundException($"Product with ID {id} does not exist.");
+            LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"NotFound id={id}");
+            throw new DalDoesNotExistException($"Product with ID {id} does not exist.");
         }
 
         // remove by filtering with LINQ Where and reassign backing list
         Products = Products.Where(p => p.IDNumber != id).ToList();
-        LogManager.Log(mb.DeclaringType?.FullName ?? "", mb.Name, $"End Delete id={id}");
+        LogManager.Log(mb?.DeclaringType?.FullName ?? "", mb?.Name ?? "", $"End Delete id={id}");
     }
 }

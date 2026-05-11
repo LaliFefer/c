@@ -2,7 +2,7 @@
 
 public class Product
 {
-    public int IDNumber { get; set; }
+    public int IDNumber { get; init; }
     public string ProductName { get; set; } = string.Empty;
     public Categories Category { get; set; }
     public double Price { get; set; }
